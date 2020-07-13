@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://ffwallpaper.com/wallup/lo-fi/lo-fi-4.jpg");
+  background-position: top;
+}
+
+.main {
+  background: rgb(212, 2, 212);
+  width: 400px;
+  height: 175px;
+  margin: 100px auto;
+  position: relative;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.badge {
+  width: 138px;
+  background: aqua;
+  color: black;
+  padding: 5px 10px;
+  font-family: "Audiowide", cursive;
+  font-weight: bolder;
+  position: absolute;
+  top: -18px;
+  left: 33%;
+}
+
+.clock {
+  background: rgb(11, 11, 100);
+  color: aqua;
+  text-align: center;
+  font-family: "Audiowide", cursive;
+  font-size: 52px;
+  height: 100%;
+  padding-top: 24px;
+  border-radius: 12px;
+}
